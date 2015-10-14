@@ -21,7 +21,7 @@ server
 gulp.task('sass', function(){
   gulp.src('sass/*.sass')
     .pipe(sass())
-    .pipe(gulp.dest('public'))
+    .pipe(gulp.dest('public/stylesheets'))
     .pipe(refresh());
 });
 
