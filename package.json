@@ -16,6 +16,7 @@
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
+    "body-parser": "^1.13.3",
     "connect-livereload": "^0.5.3",
     "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
